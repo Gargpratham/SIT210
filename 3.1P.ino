@@ -20,7 +20,7 @@ ID: 2110994808
 */
 
 #include "thingProperties.h"
-#include <DHT.h>;
+#include <DHT.h>; // adding the DHT library
 
 #define DHTPIN  6   // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
@@ -60,9 +60,6 @@ void loop() {
   delay(1000);
   onLedStatusChange();
 }
-
-
-
 
 /*
   Since LedStatus is READ_WRITE variable, onLedStatusChange() is
