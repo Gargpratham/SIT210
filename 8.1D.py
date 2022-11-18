@@ -1,3 +1,6 @@
+# Name: Pratham Garg
+# ID: 2110994808
+
 import smbus				# library to access I2C devices
 from time import sleep		# import sleep(delay) function from time library
 
